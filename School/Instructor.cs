@@ -13,8 +13,9 @@ namespace School
 		
 		List<Student> students = new List<Student>();
 
-		public Instructor(string name,string email,string phone, string jobtitle,decimal salary) : base(name,email,phone,jobtitle,salary) {
-
+		public Instructor(string name,string email,string phone, string jobtitle,decimal salary, string tech) : base(name,email,phone,jobtitle,salary) {
+			
+			Technology = tech;
 		}
 		public Instructor()
 		{
