@@ -18,5 +18,7 @@ namespace School
 			IsVet = isvet;
 			GPA = gpa;
 		}
+		public Student()
+		{ }
 	}
 }
