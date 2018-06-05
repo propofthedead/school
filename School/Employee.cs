@@ -19,7 +19,7 @@ namespace School
 			Salary = newsalary;
 		}
 
-		public Employee(string name,string email,string phone, string jobtitle) : base(name,email,phone,true) {
+		public Employee(string name,string email,string phone, string jobtitle,decimal salaray) : base(name,email,phone,true) {
 
 
 		}

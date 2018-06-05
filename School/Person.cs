@@ -19,6 +19,6 @@ namespace School
 			Phone = phone;
 			IsEmployee = isemployyee;
 		}
-
+		public Person() { }
 	}
 }
